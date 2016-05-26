@@ -182,7 +182,9 @@ var lowToHigh = mergeSort(sunGlasses);
 var lowToHighButton = document.getElementById("loToHi");
 var highToLowButton = document.getElementById("hiToLo");
 var lensWidthButton = document.getElementById("lensWidth");
-
+var lensHiLoButton = document.getElementById("lensHiLo");
+var bridgeWidthButton = document.getElementById("bridgeWidth");
+var bridgeHiLoButton = document.getElementById("bridgeHiLo");
 
 lowToHighButton.addEventListener("change", function() {
   sunContainer.innerHTML = "";
@@ -197,9 +199,33 @@ highToLowButton.addEventListener("change", function() {
 lensWidthButton.addEventListener("change", function() {
   sunContainer.innerHTML = "";
   keyValue = "lensWidth";
-  mergeSort(sunGlasses);
-  console.log("testing", keyValue);
+  var lowToHigh = mergeSort(sunGlasses);
+  console.log(sunGlasses[0][keyValue]);
   productPrint(lowToHigh);
+})
+
+lensHiLoButton.addEventListener("change", function() {
+  sunContainer.innerHTML = "";
+  keyValue = "lensWidth";
+  var lowToHigh = mergeSort(sunGlasses);
+  console.log(sunGlasses[0][keyValue]);
+  productPrint(lowToHigh.reverse());
+})
+
+bridgeWidthButton.addEventListener("change", function() {
+  sunContainer.innerHTML = "";
+  keyValue = "bridgeWidth";
+  var lowToHigh = mergeSort(sunGlasses);
+  console.log(sunGlasses[0][keyValue]);
+  productPrint(lowToHigh);
+})
+
+bridgeHiLoButton.addEventListener("change", function() {
+  sunContainer.innerHTML = "";
+  keyValue = "bridgeWidth";
+  var lowToHigh = mergeSort(sunGlasses);
+  console.log(sunGlasses[0][keyValue]);
+  productPrint(lowToHigh.reverse());
 })
 
 
