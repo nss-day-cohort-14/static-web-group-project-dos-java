@@ -1,12 +1,12 @@
 /********************
 **  EMPLOYEE PAGE  **
 ********************/
-body {
+.eBody {
 	margin: 0;
 }
 
 #container {
-	height: 1300px;
+	height: 1400px;
 	width: 100%;
 	background-color: #00FF1F;
 }
@@ -19,13 +19,14 @@ body {
 
 .eHeader h1 {
 	margin-left: 100px;
+	margin-top: 0;
 }
 
 #eContainer {
 	height: 1000px;
 	width: 1000px;
-/*	background-color: lightblue;*/
 	margin: 0 auto;
+	padding-left: 50px;
 }
 
 .employee {
