@@ -105,3 +105,13 @@ img {
   line-height: .2em;
   font-size: .8em;
 }
+
+.sort {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#sortButtons {
+  width: 60%;
+  margin: auto;
+}
