@@ -64,21 +64,28 @@ ul div {
 /*footer*/
 
 
+#footerDiv {
+  margin-botom: 0;
+  display: block;
+}
+
+
+#footer {
+  clear: both;
+   width: 100%;
+   height: 60px;  
+   background:#00ff1f;
+}
+
 #footer div {
   text-align: center;
 
 }
 
 #footer div img {
-  width: 160px;
-}
-
-#footer {
-   position:absolute;
-   bottom: 0;
-   width: 100%;
-   height: 60px;  
-   background:#00ff1f;
+  height: 50px;
+  bottom: 0;
+  clear: both;
 }
 
 /*end footer*/
