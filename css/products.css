@@ -112,6 +112,8 @@ img {
 }
 
 #sortButtons {
-  width: 60%;
-  margin: auto;
+  /*width: 80%;*/
+  margin-right: 0px;
+  float: right;
+  /*padding-left: 160px;*/
 }
