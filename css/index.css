@@ -77,7 +77,7 @@ ul div {
    background:#00ff1f;
    bottom: 0;
    margin-bottom: 0;
-   position: absolute;
+   /*position: absolute;*/
 }
 
 #footer div {
