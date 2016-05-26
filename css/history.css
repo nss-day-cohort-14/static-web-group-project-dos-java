@@ -4,6 +4,8 @@
 
 body {
 	background-image: url(../sand.jpg);
+	margin: 0;
+  font-family: "Helvetica", "Ariel", sans-serif;
 }
 
 header {
@@ -29,6 +31,10 @@ header {
 	padding-right: 15px;
 }
 
+.first-p p {
+	padding-top: 4px;
+}
+
 .third-p {
 	margin-top: 8px;
 }
@@ -52,6 +58,10 @@ header {
 	font-size: 40px;
 	background-color: #00FF1F;
 	font-style: italic;
+	padding-right: 7px;
+	margin-right: 4px;
+	margin-left: -4px;
+	margin-top: -5px;
 }
 
 .second-p {
@@ -91,7 +101,95 @@ header {
 .flat-div img {
 	border: solid 7px #FFA700;
 	margin-top: -26px;
+	margin-bottom: 8px;
 }
+
+/*navbar*/
+
+
+nav {
+    background-color: #00ff1f;
+    margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0;
+}
+span {
+  float: left;
+  margin: 15px 0 0 20px;
+  font-size: 30px;
+}
+ul li {
+  width: 60px;
+  background-color: #00ff1f;
+  font-size: 20px;
+  display: inline;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+ul li a {
+  text-decoration: none;
+  margin: 2px;
+  color: black;
+}
+
+ul li:hover {
+  background-color: black;
+  color: #00ff1f;
+}
+
+ul li:active {
+  padding: 5px 0;
+}
+
+ul li a:hover {
+  color: #00ff1f;
+}
+
+ul li a:visited {
+  width: 60px;
+  font-size: 20px;
+  display: inline;
+}
+
+ul div {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+/*footer*/
+
+
+#footerDiv {
+  margin-botom: 0;
+  display: block;
+}
+
+
+#footer {
+  clear: both;
+   width: 100%;
+   height: 60px;  
+   background:#00ff1f;
+}
+
+#footer div {
+  text-align: center;
+
+}
+
+#footer div img {
+  height: 50px;
+  bottom: 0;
+  clear: both;
+}
+
 
 
 
