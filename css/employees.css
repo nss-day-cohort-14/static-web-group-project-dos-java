@@ -1,0 +1,61 @@
+/********************
+**  EMPLOYEE PAGE  **
+********************/
+body {
+	margin: 0;
+}
+
+#container {
+	height: 1300px;
+	width: 100%;
+	background-color: #00FF1F;
+}
+
+.eHeader {
+	height: 100;
+	background-color: #FFFF11;
+	font-family: "Fascinate", sans-serfif;
+}
+
+.eHeader h1 {
+	margin-left: 100px;
+}
+
+#eContainer {
+	height: 1000px;
+	width: 1000px;
+/*	background-color: lightblue;*/
+	margin: 0 auto;
+}
+
+.employee {
+	height: 400px;
+	width: 470px;
+	margin: 5.5px;
+	float: left;
+	font-family: sans-serfif;
+	border: 2px black solid;
+	border-radius: 10px;
+	background-color: #52FFFF;
+	text-align: center;
+/*	background-image: url(https://c5.staticflickr.com/8/7338/27158792652_13c175bcaa_o.jpg);*/
+}
+
+.eName {
+	font-family: "Faster One", sans-serfif;
+	font-size: 3em;
+	margin: 10px auto;
+
+}
+
+.eTitle {
+	font-size: 2em;
+}
+
+.eDescription {
+	padding: 15px;
+}
+
+.eImage {
+
+}
